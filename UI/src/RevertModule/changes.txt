@@ -1,0 +1,13 @@
+1.App.js
+import RevertModule from "./RevertModule/components/RevertModule";
+
+ <PrivateRoute path="/sims/revert-module" component={RevertModule} />
+
+2.Layout.js
+import RevertModule from "../src/RevertModule/components/RevertModule";
+
+<PrivateRoute path="/sims/revert-module" component={RevertModule} />
+
+3.il8n.js
+ ["remarks", "Remarks for revert", "Remarks for revert"],
+["revertModule", "Revert Module", "उल्टाउने मोड्युल"],

@@ -1,0 +1,79 @@
+
+.reports table {
+  font-size: 16px;
+  white-space: nowrap;
+  border-spacing: 0;
+  table-layout: fixed;
+  border: 1px solid black;
+}
+.reports table tr,th,td {
+  border: 1px solid black;
+  padding: 5px;
+  white-space: normal;
+  /* width: 10%; */
+}
+
+.reports table thead th {
+  text-align: center;
+  background: #cfcccc;
+}
+
+.reports table td {
+  text-align: center;
+}
+
+
+
+.main-indicator {
+  text-align: left;
+}
+
+.sub-indicator {
+  text-align: right;
+}
+table{
+  width:100%;
+}
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    -moz-print-color-adjust: exact;
+    -ms-print-color-adjust: exact;
+     print-color-adjust: exact;
+  }
+   .page {
+     border-bottom:none;
+     }
+
+     body * {
+      visibility: hidden;
+    }
+  
+    .section-to-print,
+    .section-to-print * {
+      visibility: visible;
+    }
+  
+    .section-to-print {
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin-top: 20px;
+    }
+    table{
+      width:800px;
+    }
+    .logotext{
+      float: left;
+      width:800px;
+    }
+
+    .logostyle{
+      float:left!important;
+      width:50px;
+    }
+  
+    @page {
+      size: 210mm 297mm; 
+    }
+}

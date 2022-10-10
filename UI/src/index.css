@@ -1,0 +1,393 @@
+body {
+  margin: 0;
+  /*font-family: 'poppins' !important;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* background-color: #f8f8f8; */
+  background: #e9e5e5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main-class {
+  background-color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  #kycForm .stick-right {
+    padding-right: 0px;
+  }
+
+  #kycForm .stick-right input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #kycForm .stick-left {
+    padding-left: 0px;
+  }
+
+  #kycForm .stick-left input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+#kycForm .p-card-body {
+  padding: 25px !important;
+}
+
+#kycForm .p-card-content {
+  padding: 0 !important;
+}
+
+#kycForm h3 {
+  margin: 5px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #2090e9;
+  /*font-family: 'Poppins';
+  letter-spacing: 1.2px;*/
+  font-weight: bold;
+
+}
+
+#kycForm h2 {
+  margin: 5px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #2090e9;
+  font-family: 'Ubuntu';
+
+}
+
+#kycForm h4 {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 0;
+  font-size: 20px;
+  color: #d00000;
+}
+
+#kycForm .p-field {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#kycForm .p-field-radiobutton {
+  margin-bottom: 0;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px !important;
+  margin: 0px !important;
+  margin-top: 0px !important;
+  border: 1px solid #CED4DA !important;
+  padding: 0.44rem;
+}
+
+#kycForm .p-field-radiobutton label {
+  margin-bottom: 0;
+  border-radius: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  color: #737b82;
+  background: #ffffff;
+
+}
+
+.p-radiobutton .p-radiobutton-box {
+  border: 2px solid #ced4da;
+  background: #ffffff;
+  width: 17px;
+  height: 17px;
+  font-size: 0.9rem !important;
+  color: #737b82 !important;
+  border-radius: 50%;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+#kycForm .p-inputtext {
+  margin-bottom: 0;
+  border-radius: 0px;
+  padding: 5px;
+}
+
+#kycForm .p-dropdown {
+  margin-bottom: 0;
+  border-radius: 0px;
+}
+
+
+#kycForm .p-field label {
+  margin-bottom: 0;
+  padding-bottom: 4px;
+  padding-left: 0
+}
+
+#kycForm .p-button {
+  border-radius: 0px !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.main-body-card {
+  border: 1.5px solid #efefef;
+  border-radius: 12px !important;
+}
+
+#kycForm {
+  margin-left: 17%;
+}
+
+.pull-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.icon-front {
+  z-index: 1;
+}
+
+#kycProgressBar {
+  background-color: #0075ff;
+  clip-path: circle(65% at 100% 50%);
+  height: 100vh;
+}
+
+.p-card {
+  padding: 0px !important;
+  /*margin: 16px !important;*/
+}
+
+#kycProgressBar ul {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  margin-top: 33%;
+  margin-left: 40%;
+}
+
+#kycProgressBar ul li {
+  list-style: none;
+  float: none;
+}
+
+#kycProgressBar ul li a {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+#kycProgressBar ul li .active {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#kycForm .p-fileupload-buttonbar {
+  border-radius: 0px;
+  padding: 0px !important
+}
+
+#kycForm .p-fileupload-content {
+  border-radius: 0px;
+}
+
+.keep-left {
+  position: absolute;
+  margin-left: -40px;
+  font-size: 1.5em;
+}
+
+.very-bold-icon {
+  -webkit-text-stroke: 2px white;
+}
+
+.ml-3 {
+  margin-left: 3px;
+}
+
+.seperator {
+  height: 67%;
+  width: 1px;
+  background: black;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  left: 35%;
+  margin-top: 110px;
+}
+
+.pt-0 {
+  padding-top: 0px !important;
+  ;
+}
+
+.section-title {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+  font-weight: bold;
+  color: #2090e9;
+}
+
+.sub-title {
+  padding-top: 10px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+p-radiobutton .p-radiobutton-box.p-highlight {
+  border-color: #2196F3 !important;
+  background: #2196F3 !important;
+}
+
+.p-radiobutton-box.p-highlight .p-radiobutton-icon {
+  transform: translateZ(0) scale(0.75, 0.75);
+  visibility: visible;
+}
+
+.datascroller-demo .card {
+  position: relative;
+  z-index: 999;
+  background: #FFF;
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid #eae8ed;
+
+}
+
+.p-inputswitch .p-inputswitch-slider {
+  background: #ced4da;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  border-radius: 30px;
+  border: 1px solid #CCC !important;
+
+}
+
+.p-inputswitch {
+  position: relative;
+  display: inline-block;
+  /* margin-top: 18px; */
+  right: 14px !important;
+}
+
+.landing p .p-inputswitch {
+  position: relative;
+  display: inline-block;
+  margin-top: 18px;
+  right: 0px !important;
+}
+
+.label-class {
+  display: flex !important;
+  flex: 1 !important;
+  /* justify-content: center !important; */
+}
+
+.main-label {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.sub-label {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.tooltip-style {
+  font-size: 1em;
+  margin-left: 5px;
+  color: #98173a;
+  cursor: pointer;
+}
+
+.idcard-label {
+  font-size: 12px;
+  font-weight: bold;
+  height: 10px;
+}
+
+.idcard-value {
+  font-size: 10px;
+  height: 10px;
+}
+
+#kycForm .MuiPaper-root {
+  box-shadow: none !important;
+}
+
+
+/* @media print {
+
+  body * {
+    visibility: hidden;
+  }
+
+  #section-to-print,
+  #section-to-print * {
+    visibility: visible;
+  }
+
+  #section-to-print {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 920px;
+  }
+
+  #ignoreButton {
+    display: none;
+  }
+
+  #pageBreak {
+    page-break-after: always;
+  }
+} */
+
+.tooltip-icon:hover {
+  cursor: pointer
+}
+
+.landing-p {
+  flex: 1;
+  color: blue;
+  text-decoration-line: underline;
+  cursor: pointer;
+}

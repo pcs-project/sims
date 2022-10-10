@@ -1,0 +1,22 @@
+.datascroller-demo .name {
+    font-size: 0.9rem;
+    /*font-weight: 700;*/
+    float: left;
+}
+
+.datascroller-demo .main-list {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    width: 100%;
+}
+
+.datascroller-demo .main-list .sub-list {
+    flex: 1 1 0;
+}
+
+@media screen and (max-width: 576px) {   
+    .datascroller-demo .main-list .sub-list {
+        text-align: center;
+    }
+}

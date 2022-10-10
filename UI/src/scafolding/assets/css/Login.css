@@ -1,0 +1,74 @@
+.loginBox {
+  background: #fff;
+  border-radius: 8px;
+  border-color: rgb(236, 149, 149);
+  width: 450px;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  margin: 100px auto 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+  justify-content: center;
+}
+.p-card {
+  /* box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2), 
+    0 12px 17px 2px rgba(0, 0, 0, 0.14), 
+    0 5px 22px 4px rgba(0, 0, 0, 0.12) !important;
+    padding:30px; */
+}
+
+.logoBg {
+  background: #fff;
+  padding: 15px !important;
+  border-radius: 8px;
+}
+
+.loginBox div {
+  grid-row: 2/3;
+}
+
+.username {
+  width: 15rem;
+  margin-top: 15px;
+}
+
+.p-inputtext {
+  padding-left: 20px !important;
+}
+
+.login-password input {
+  /* width: 15rem; */
+  border-radius: 25px !important;
+  height: 38px;
+  padding-left: 20px;
+}
+
+.textSize {
+  font-size: 10px !important;
+}
+
+.p-field-checkbox label {
+  margin-left: 0px !important ;
+}
+
+.rounded-input {
+  border-radius: 25px !important;
+  height: 38px;
+}
+
+.loginBtn {
+  background-color: #0c6ab3 !important;
+  color: #ffffff !important;
+  border-color: #065ea7 !important;
+}
+
+.loginBtn:hover {
+  background-color: #1c80cf !important;
+  color: #fff !important;
+}
+
+.loginBtn:not(a):not(.p-disabled):hover {
+  background-color: #0c6ab3 !important;
+  color: #ffffff !important;
+  border-color: #065ea7 !important;
+}
